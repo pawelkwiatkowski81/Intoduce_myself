@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
           appBar: AppBar(
             title: const Text('Introduce myself'),
+            backgroundColor: Colors.indigoAccent,
           ),
           backgroundColor: Colors.deepOrangeAccent,
           body: Center(
