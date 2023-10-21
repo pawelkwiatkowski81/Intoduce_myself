@@ -18,9 +18,9 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
           appBar: AppBar(
             title: const Text('Introduce myself'),
-            backgroundColor: Colors.indigoAccent,
+            backgroundColor: Colors.blueGrey,
           ),
-          backgroundColor: Colors.deepOrangeAccent,
+          backgroundColor: Colors.blueGrey[700],
           body: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -34,8 +34,8 @@ class MyApp extends StatelessWidget {
                 ),
                 Text(
                   'Pawel Kwiatkowski',
-                  style: GoogleFonts.adamina(
-                      fontSize: 30, color: Colors.indigoAccent),
+                  style:
+                      GoogleFonts.adamina(fontSize: 30, color: Colors.white70),
                 ),
                 const SizedBox(
                   height: 30,
@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
                   'Flutter Developer',
                   style: GoogleFonts.brunoAce(
                     fontSize: 25,
-                    color: Colors.lightGreenAccent,
+                    color: Colors.white38,
                   ),
                 ),
                 const SizedBox(
