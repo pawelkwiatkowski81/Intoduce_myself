@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Wizytowka',
+        title: 'Introduce Myself',
         theme: ThemeData(
           primarySwatch: Colors.purple,
         ),
@@ -51,8 +51,11 @@ class MyApp extends StatelessWidget {
                   height: 30,
                 ),
                 const Icon(Icons.mail),
+                const SizedBox(
+                  height: 20,
+                ),
                 const Text(
-                  'Pawelkwiatkowski81@gmail.com',
+                  'PawelKwiatkowski81@gmail.com',
                 ),
               ],
             ),
